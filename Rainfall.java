@@ -214,14 +214,6 @@ public class Rainfall {
 			{
 				System.out.print("*");
 			}
-			if(x.calculateMeanRainfall()==this.calculateHighestMeanAnnualRainfall())
-			{
-				System.out.print("| HIGHEST RAINFALL "+x.calculateMeanRainfall());
-			}
-			else if(x.calculateMeanRainfall()==this.calculateLowestMeanAnnualRainfall())
-			{
-				System.out.print("| LOWEST RAINFALL "+x.calculateMeanRainfall());
-			}
 			System.out.println();
 		}
 	}
